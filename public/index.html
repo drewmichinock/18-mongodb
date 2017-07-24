@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Scraping With Mongoose</title>
+    <style>
+    body {
+        background-color: #90CAF9;
+    }
+
+    #wrapper {
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+    }
+
+    #articles {
+        display: inline-block;
+        overflow: auto;
+        width: 60%;
+        height: 700px;
+        font-weight: 600;
+    }
+
+    #notes {
+        float: right;
+        width: 30%;
+        background-color: #fff;
+    }
+
+    textarea,
+    input {
+        display: block;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    input {
+        height: 36px;
+        font-size: 24px;
+    }
+
+    textarea {
+        height: 200px;
+        font-size: 18px;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>NY Times Scraper</h1>
+        <br>
+        <div id="articles"></div>
+        <div id="notes"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
